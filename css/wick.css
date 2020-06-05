@@ -22,13 +22,13 @@ header .logo {
     max-width: 120px;
 }
 
-header .toggle {
+header .home {
     max-width: 60px;
     cursor: pointer;
 }
 
 header .logo img,
-header .toggle img {
+header .home img {
     max-width: 100%;
 }
 
@@ -45,11 +45,11 @@ header .toggle img {
     align-items: center;
 }
 
-.banner .content {
+.banner .conteudo {
     max-width: 550px;
 }
 
-.banner .content h2 {
+.banner .conteudo h2 {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 2.5em;
@@ -57,11 +57,11 @@ header .toggle img {
     color: #fff;
 }
 
-.banner .content h2 span {
+.banner .conteudo h2 span {
     font-weight: 800;
 }
 
-.banner .content p {
+.banner .conteudo p {
     font-size: 1.2em;
     font-weight: 300;
     letter-spacing: 0.02em;
@@ -89,7 +89,7 @@ header .toggle img {
     max-width: 50px;
 }
 
-.contact {
+.contato {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -100,15 +100,15 @@ header .toggle img {
     flex-direction: column;
 }
 
-.contact li {
+.contato li {
     list-style: none;
 }
 
-.contact li a {
+.contato li a {
     text-decoration: none;
 }
 
-.contact li a img {
+.contato li a img {
     filter: invert(1);
     transform: scale(0.6);
 }
@@ -171,6 +171,18 @@ header .toggle img {
     max-width: 32px;
 }
 
+.copy {
+    overflow: hidden;
+    padding: 2em 0em;
+    text-align: center;
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    background: linear-gradient(black, #8e44ad);
+    color: #fff;
+}
+
 @media (max-width: 991px) {
     header {
         padding: 20px 50px;
@@ -181,18 +193,18 @@ header .toggle img {
     header .logo {
         max-width: 80px;
     }
-    header .toggle {
+    header .home {
         max-width: 40px;
     }
     .banner {
         padding: 100px 50px;
     }
-    .banner .content h2 {
+    .banner .conteudo h2 {
         font-weight: 400;
         font-size: 2em;
         letter-spacing: 0.05em;
     }
-    .banner .content p {
+    .banner .conteudo p {
         font-size: 1em;
     }
     .slide {
@@ -203,7 +215,7 @@ header .toggle img {
         height: 150px;
         margin: 20px 0;
     }
-    .contact {
+    .contato {
         position: absolute;
         top: initial;
         right: initial;
@@ -214,7 +226,7 @@ header .toggle img {
         align-items: center;
         flex-direction: row;
     }
-    .contact li {
+    .contato li {
         list-style: none;
         margin: 0 5px;
     }
